@@ -1,0 +1,215 @@
+\:root
+  --vt-c-white: #ffffff
+  --vt-c-white-soft: #f8f8f8
+  --vt-c-white-mute: #f2f2f2
+  --vt-c-black: #0e1014
+  --vt-c-black-soft: #222222
+  --vt-c-black-mute: #282828
+  --vt-c-indigo: #2c3e50
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29)
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12)
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65)
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48)
+  --vt-c-text-light-1: var(--vt-c-indigo)
+  --vt-c-text-light-2: rgba(60, 60, 60, 0.66)
+  --vt-c-text-dark-1: var(--vt-c-white)
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64)
+  --separator-16: rgba(214, 228, 255, 0.16)
+  --text-color-tertiary: #898b8f
+  --accent-primary: #059df5
+  --accent-primary-hover: #059df514
+  --accent-primary-dark: #0486d1
+  --default-snackbar: #059df5
+  --dark-secondary: #212429
+  --dark-secondary-44: #21242970
+  --main-secondary: #212429
+  --accent-tetriary: #16181c
+  --accent-tetriary-72: #16181cb7
+  --accent-tetriary-44: #16181c70
+  --main-tertiary: #16181c
+  --main-tertiary-50: #16181c7f
+  --main-background: #0e1014
+  --main-background-80: #0e1014cc
+  --main-background-90: #0e1014e6
+  --main-background-72: #0e1014b8
+  --main-white: #fff
+  --glint-color: #4a31f0
+  --glint-color-56: #4a31f08e
+  --glint-color-dark: #2b1c8a
+  --glint-box-shadow: 0px 0px 26px 0px rgba(74, 49, 240, 0.64)
+  --glint-box-shadow-dark: 0px 0px 26px 0px rgba(74, 49, 240, 0.32)
+  --glint-with-boost: linear-gradient(90.6deg, #4a31f0, #a95fda 50%, #fd87c6)
+  --glint-with-boost-dark: linear-gradient(0deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), linear-gradient(92.63deg, #4a31f0, #a95fda 50%, #d16da2)
+  --completed-challenge-border: linear-gradient(90deg, #c24a86, #f0607d)
+  --completed-challenge-dark: linear-gradient(0deg, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16)), linear-gradient(90deg, #c24a86, #f0607d)
+  --text-color-primary: #e9e9eb
+  --text-color-primary-40: #e9e9eb66
+  --text-color-primary-hover: #a3a3a3
+  --text-color-secondary: #bfc1c7
+  --stickerface-text-secondary: #6f737a
+  --text-color-tertiary: #898b8f
+  --text-color-tertiary-60: #898b8f99
+  --text-color-tertiary-10: #898b8f1a
+  --reverse-theme-text-color: #e9e9eb
+  --reverse-theme-text-color-filters: #e9e9eb
+  --button-primary: #059df5
+  --button-primary-hover: #0486d1
+  --dark: #1e2024
+  --dark-72: #1e2024b8
+  --dark-hover: #27292e
+  --disabled-button: #023752
+  --button-primary-color: #fff
+  --white-button: #fff
+  --white-button-hover: #d1d1d1
+  --stickerface-accent: #8444bd
+  --stickerface-accent-disabled: #48326b
+  --stickerface-accent-24: #8444bd3d
+  --dropdown-item-hover: #d6e4ff0a
+  --green: #29b862
+  --color-background: var(--vt-c-black)
+  --color-background-soft: var(--vt-c-white-soft)
+  --color-background-mute: var(--vt-c-white-mute)
+  --color-border: var(--separator-16)
+  --color-border-hover: var(--vt-c-divider-light-1)
+  --color-heading: var(--vt-c-text-light-1)
+  --color-text: var(--vt-c-text-light-1)
+  --section-gap: 160px
+
+/* semantic color variables for this project
+
+@media (prefers-color-scheme: dark)
+  \:root
+    --color-background: var(--vt-c-black)
+    --color-background-soft: var(--vt-c-black-soft)
+    --color-background-mute: var(--vt-c-black-mute)
+    --color-border: var(--vt-c-divider-dark-2)
+    --color-border-hover: var(--vt-c-divider-dark-1)
+    --color-heading: var(--vt-c-text-dark-1)
+    --color-text: var(--vt-c-text-dark-2)
+
+*
+  box-sizing: border-box
+  margin: 0
+  font-weight: normal
+
+  &::before, &::after
+    box-sizing: border-box
+    margin: 0
+    font-weight: normal
+
+body
+  min-height: 100vh
+  color: var(--color-text)
+  background: var(--color-background)
+  transition: color 0.5s, background-color 0.5s
+  line-height: 1.6
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
+  font-size: 15px
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+// $ton: #08c
+
+// $font: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif
+
+// $loader-shine: var(--loader-shine)
+
+// $account-address: var(--account-address)
+
+// $page-bg: var(--page-bg)
+
+// // $primary: var(--primary)
+// // $secondary: var(--secondary)
+// // $secondary-hover: var(--secondary-hover)
+// $tertiary: var(--tertiary)
+
+// $border: var(--border)
+
+// $bar: var(--bar)
+
+// $red: var(--red)
+// $red-hover: var(--red-hover)
+// $green: var(--green)
+// $green-hover: var(--green-hover)
+// $yellow: var(--yellow)
+
+// $text: var(--text)
+// $text-secondary: var(--text-secondary)
+// $text-secondary-inactive: var(--text-secondary-inactive)
+
+// $btn-primary: var(--btn-primary)
+// $btn-primary-h: var(--btn-primary-h)
+// $btn-primary-active: var(--btn-primary-active)
+
+// $btn-secondary: var(--btn-secondary)
+// $btn-secondary-h: var(--btn-secondary-h)
+// $btn-secondary-hover-dark: var(--btn-secondary-hover-dark)
+
+// $bg-main: var(--bg-main)
+// $bg-header: var(--bg-header)
+// $bg-footer: var(--bg-footer)
+
+// // $bg-primary: var(--bg-primary)
+// // $bg-secondary: var(--bg-secondary)
+// // $bg-tertriary: var(--bg-tertriary)
+
+// // --tab-indicator: #8A81F8
+
+// // --border: #303131 (( ALREADY SET ))
+
+// $primary-list-item: var(--primary-list-item)
+// $primary-list-item-h: var(--primary-list-item-h)
+
+// $block-info: var(--block-info)
+// // --text-info: #777777
+
+// $svg: var(--svg)
+// $svg-h: var(--svg-h)
+
+// // $btn-primary: var(--btn-primary)
+// // $btn-primary-h: var(--btn-primary-h)
+// // --btn-primary-inactive: #2D2D2D
+
+// // --btn-secondary: #333333
+// // --btn-secondary-h: #444444
+
+// $btn-tertiary: var(--btn-tertiary)
+// $btn-tertiary-h: var(--btn-tertiary-h)
+
+// $input: var(--input)
+// $input-readonly: var(--input-readonly)
+// $secondary-list-item: var(--secondary-list-item)
+// $secondary-list-item-h: var(--secondary-list-item-h)
+
+// // --green: #21E56F
+// // --green-h: #2DCD6D
+
+// $action: var(--action)
+// $bg-action: var(--bg-action)
+
+// $verified: var(--verified)
+// $bg-verified: var(--bg-verified)
+
+// // --yellow: #FFDC62
+// // --yellow-h: #E4C147
+
+// $important: var(--important)
+// $bg-important: var(--bg-important)
+
+// // --red: #EB3742
+// // --red-h: #D62A35
+
+// $warning: var(--warning)
+// $bg-warning: var(--bg-warning)
+
+// // --blue-primary: #6BCEFF
+// // --blue-secondary: #2C373E
+
+// $text-primary: var(--text-primary)
+// // $text-secondary: var(--text-secondary) (( ALREADY SET ))
+
+// // --text-accent: #8A81F8
+// // --text-non-accent: #666666
+
+// // --text-inactive: #a7a7a7
